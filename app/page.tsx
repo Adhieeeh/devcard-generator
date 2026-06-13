@@ -77,7 +77,8 @@ export default function Home() {
             style={{ width: '110px', height: '110px', ... }}
           />
 
-          {/* Avatar Area */}
+         {/* Avatar Area */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src={avatarUrl} 
             alt="Profile Avatar" 
