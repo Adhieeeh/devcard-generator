@@ -70,6 +70,13 @@ export default function Home() {
             <span style={{ fontSize: '10px', backgroundColor: '#22c55e', padding: '2px 8px', borderRadius: '10px', fontWeight: 'bold' }}>ACTIVE</span>
           </div>
 
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img 
+            src={avatarUrl} 
+            alt="Profile Avatar" 
+            style={{ width: '110px', height: '110px', ... }}
+          />
+
           {/* Avatar Area */}
           <img 
             src={avatarUrl} 
