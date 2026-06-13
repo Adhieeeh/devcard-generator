@@ -1,9 +1,8 @@
-export const metadata = {
-  title: "DevCard Generator",
-  description: "Create your developer ID card",
-};
-
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
