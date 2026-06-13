@@ -12,3 +12,8 @@ DevCard is an interactive digital card simulator built using Next.js. It allows 
     1. Install packages: `npm install`
     2. Run locally: `npm run dev`
     3. View on: `http://localhost:3000`
+
+
+## Preview
+![](devcrd1.png)
+![](devcrd2.png)
